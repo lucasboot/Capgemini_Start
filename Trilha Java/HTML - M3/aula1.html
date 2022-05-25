@@ -6,13 +6,23 @@
     </head>
     <body>
         <header>
+            <figure>
+                <img src="https://via.placeholder.com/200" width="200" height="200"/>
+                <figcaption>Imagem aleatoria</figcaption>
+            </figure>
             <div>
                 <h1>Currículo de instituições - Lucas Figueredo</h1>
             </div>
             <nav>
-                <span>Inicio</span>
-                <span>Sobre mim</span>
-                <span>Contato</span>
+                <span>
+                    <a href="aula1.html" target="_blank">Inicio</a>
+                </span>
+                <span>
+                    <a href="sobre.html" target="_blank">Sobre mim </a>
+                </span>
+                <span>
+                    <a href="contato.html" target="_blank">Contato</a>
+                </span>
             </nav>
         </header>
         <article>
@@ -22,6 +32,7 @@
             </section>
             <section>
                 <h3>Dados de contato ...</h3>
+                <a href="mailto:varela.alves@outlook.com">Envie me um email</a>
             </section>
         </article>
         <main>
@@ -37,10 +48,71 @@
         </main>
         <aside>
             <h4>Informações a mais, propagandas, algo a parte</h4>
+            <table border="1">
+                <caption><h4>Horários de estudo</h4></caption>
+                <thead>
+                    <tr>
+                        <th>
+                            Seg
+                        </th>
+                        <th>
+                            Ter
+                        </th>
+                        <th>
+                            Qua
+                        </th>
+                        <th>
+                            Qui
+                        </th>
+                        <th>
+                            Sex
+                        </th>
+    
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Manhã</td>
+                        <td rowspan="2">HTML</td>
+                        <td>CSS</td>
+                        <td>HTML</td>
+                        <td>CSS</td>
+                        <td>Java</td>
+
+                    </tr>
+                    <tr>
+                        <td>Tarde</td>
+                        <td colspan="3">VueJS</td>
+                        
+                        <td>Java</td>
+
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th>
+                            Seg
+                        </th>
+                        <th>
+                            Ter
+                        </th>
+                        <th>
+                            Qua
+                        </th>
+                        <th>
+                            Qui
+                        </th>
+                        <th>
+                            Sex
+                        </th>
+    
+                    </tr>
+                </tfoot>
+            </table>
         </aside>
         <footer>
             <nav>
-                LinkedIn <br>
+                <a href="https://www.linkedin.com/in/lucasfva/" target="_blank">LinkedIn <br></a>
                 Github <br>
             </nav>
             &copy;2022 Lucas Figueredo

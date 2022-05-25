@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Currículo do Lucas</title>
+    </head>
+    <body>
+        <form method="get" action="https://google.com/search">
+            <input type="text" name="search"/>
+        </form>
+
+        <form>
+            <input type="text" name="login" placeholder="login"/>
+            <input type="password" name="password" placeholder="senha"/>
+            <input type="email" name="email" placeholder="email"/>
+            <input type="search" name="search" placeholder="buscar"/>
+            <input type="tel" name="cellphone" placeholder="(xx) xxxxx-xxxx)">
+            <input type="number" name="idade" placeholder="idade"/>
+            <input type="url" name="linkedin" placeholder="Linkedin URL"/>
+            <input type="range" name="urgency" min=0 max=100 step=0.1/>
+            <input type="checkbox" name="dia-semana" value=2/>Segunda Feira <br/>
+            <input type="checkbox" name="dia-semana" value=4/>Quarta Feira Feira <br/>
+            <input type="radio" name="horario" value="manha"/>Manhã <br/>
+            <input type="radio" name="horario" value="tarde"/>Tarde <br/>
+            <textarea name="mensagem" cols=50 rows=10>Texto padrao</textarea>
+            <input list="cidade" name="cidade"/>
+
+            <datalist id="cidade">
+                <option value="Natal">Natal</option>
+                <option value="Recife">Recife</option>
+                <option value="Salvador">Salvador</option>
+            </datalist>
+            <select name="cidade">
+                <option value="">Selecione a cidade</option>
+                <option value="Natal">Natal</option>
+                <option value="Recife">Recife</option>
+                <option value="Salvador">Salvador</option>
+            </select>
+            <button type="button">Outra ação</button>
+            <button type="reset">Limpar</button>
+            <button type="submit">Enviar</button>
+
+
+        </form>
+    </body>
+</html>
