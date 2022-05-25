@@ -10,3 +10,10 @@
 #### Não semântico
 - div: bloco
 - span: pedaço
+
+#### Dicas HTML VSCODE Emmet
+- html:5 tab
+- ul.class tab
+- ul#id tab
+- li*5 tab
+- li.class*5 tab

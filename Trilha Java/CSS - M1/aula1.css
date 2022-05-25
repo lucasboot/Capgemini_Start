@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@400;700&display=swap');
+
+
+html{
+    color: rebeccapurple;
+    font-family: 'Dancing Script', cursive;
+    background-color: black;
+    background-image: url("squidy.webp");
+    background-size: 450px 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h1, h2, h3{
+    text-decoration: overline;
+    text-align: center;
+    letter-spacing: 0.5rem;
+}
+a:active{
+    color: white;
+    cursor: pointer;
+}
+a:visited{
+    color: red;
+    cursor:help;
+}
+p{
+    text-align: start;;
+}
+article p{
+    font-size: 1.5rem;
+    text-indent: 2rem;
+}
+
+h2{
+    font-family: cursive;
+    color: red;
+}
+.titulo-aula{
+    text-decoration: underline;
+}
+.textoazul{
+    color: blue;
+}
+.textovermelho{
+    color: red;
+}
+
+#titulo1{
+    text-decoration: line-through;
+}
