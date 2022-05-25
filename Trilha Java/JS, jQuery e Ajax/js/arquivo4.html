@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function acao(){
+            var texto = document.getElementsByTagName("h1")[0];
+            texto.style.color = "red";
+            texto.innerHTML = "bloody red";
+        }
+        function change(){
+            var link = document.getElementsByTagName("a")[0];
+            link.href="https://www.linkedin.com/in/lucasfva/";
+            var botao = document.getElementsByTagName("button")[1];
+            botao.innerHTML="Linkedin";
+        }
+    </script>
+</head>
+<body>
+    <h1>Javascript</h1>
+    <button onclick="acao()">Clique aqui</button>
+    <a href="https://github.com/lucasboot/">Link</a>
+    <button onclick="change()">Github</button>
+</body>
+</html>
