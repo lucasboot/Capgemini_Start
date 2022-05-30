@@ -1,0 +1,27 @@
+@cor: blue;
+@cor2: green;
+@cor3: white;
+@cinza_claro: rgb(210, 212, 208);
+@width: 0.50;
+
+.drop-shadow() {
+    text-shadow: 2px 1px 1px #ccc;
+    text-decoration: underline;
+}
+body {
+    background-color: @cinza_claro;
+}
+h1 {
+    color: @cor;
+}
+
+p{
+    .drop-shadow();
+    color: if(iscolor(@cor), @cor, red);
+    width: percentage(@width);
+    font-size: 23px;
+    b{
+        color: @cor3;
+        background-color: @cor2;
+    }
+}
